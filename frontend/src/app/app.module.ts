@@ -5,12 +5,14 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { ShareSaveComponent } from './components/share-save/share-save.component';
+import { AddShareComponent } from './components/add-share/add-share.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ShareSaveComponent
+    AddShareComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
